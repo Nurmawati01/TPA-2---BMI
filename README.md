@@ -1,5 +1,11 @@
 <h1>Penjelasan Program</h1>
 
+<h2>Tampilan saat di running</h2>
+<img src="awal.png" width="70%">
+
+<h2>Tampilan saat di isi</h2>
+<img src="akhir.png" width="70%">
+
 <ol>
   <li>document.addEventListener("DOMContentLoaded", function() {...}): Event listener ini akan dieksekusi ketika semua elemen dalam dokumen HTML telah selesai dimuat dan diinisialisasi. Dalam event listener ini, seluruh kode JavaScript untuk program BMI akan diletakkan.</li>
   <li>const form = document.querySelector("form");: Script ini digunakan untuk mengambil elemen form HTML menggunakan metode querySelector() yang akan dicari berdasarkan tag form. Elemen ini akan digunakan untuk menangkap input dari pengguna.</li>
