@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="Kalkulator">
+      <h1>BMI Calculator</h1>
+      <h2>Enter your weight and height below to check your BMI results</h2>
+      <form>
+        <label for="berat_badan">Put your weight in here (KG) </label><br/>
+        <input type="number" id="berat_badan" name="berat_badan" required placeholder="Enter your weight" /><br /><br />
+
+        <label for="tinggi_badan">And your height in here (CM) </label><br/>
+        <input type="number" id="tinggi_badan" name="tinggi_badan" required placeholder="Enter your height"/><br /><br />
+
+        <button type="submit" id="hitung_bmi">Calculate BMI</button>
+      </form>
+      <br>
+      <div id="hasil"></div>
+    </div>
+  </body>
+</html>
